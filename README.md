@@ -9,22 +9,6 @@ and to change back to white, use:
 		$Color.color = Color(1,1,1,1)
 ```
 
-The colors should behave as follows:
-
-For the bricks:
- * Row 0 is RED 8
- * Row 1 is Orange 6
- * Row 2 is Yellow 3
- * Row 3 is Lime 5
- * Row 4 is Blue 6
- * Row 5 is Violet 5
- * Row 6 is Grape 6
-
-For the paddle:
- * Gray 5
-
-For the ball:
- * Cyan 5
 
 You will also need to edit the particle emmitters in the Walls, Paddle, and Bricks nodes so that the paddle emits confetti, and the walls and bricks emit bubbles (the assets are in the Assets folder).
 

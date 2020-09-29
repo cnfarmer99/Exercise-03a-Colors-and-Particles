@@ -9,6 +9,8 @@ func _ready():
 
 func update_color():
 	if HUD.color_background:
+		#couldn't find in assignment what color was supposed to change to
+		#game breaks when I try to change background color
 		pass
 	else:
 		pass
