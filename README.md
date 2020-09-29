@@ -114,6 +114,6 @@ Built using Godot 3.2.2
 Tweening, screen shake, music, and sound effects
 
 ## Created by 
-Jason Francis
+Cierra Farmer
 
 ```
