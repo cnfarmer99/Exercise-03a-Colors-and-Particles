@@ -1,23 +1,4 @@
 # Exercise-03a-Colors-and-Particles
-Exercise for MSCH-C220, 22 September 2020
-
-This exercise is designed to explore adding color and particle effects to a boring brick breaker game (in the spirit of "Juice it or Lose it").
-
-Fork this repository. When that process has completed, make sure that the top of the repository reads [your username]/Exercise-03a-Color-and-Particles. *Edit the LICENSE and replace BL-MSCH-C220-F20 with your full name.* Commit your changes.
-
-Clone the repository to a Local Path on your computer.
-
-Open Godot. Import the project.godot file and open the "Color and Particles" project.
-
-You should see a very basic brick-breaker game with a HUD that will control certain effects: adding color to the blocks, the paddle, and the ball; and adding particle effects to the blocks, the paddle, and the walls.
-
-The signals have all been connected, and the code should basicallly be in place. Your assignment is to edit the following scripts, adding functionality to the update_color and emit_particle methods:
-
- * /Background/Background.gd
- * /Ball/Ball.gd
- * /Brick/Brick.gd
- * /Paddle/Paddle.gd
- * /Walls/Walls.gd
 
 All color references correspond to those defined in the [Open Color scheme](https://yeun.github.io/open-color/). In GDScript, to change the color, use
 ```

@@ -13,9 +13,11 @@ func _ready():
 
 func update_color():
 	if HUD.color_ball:
-		pass
+		#set to cyan 5
+		$Color.color = Color8(34, 184, 207)
 	else:
-		pass
+		#set back to white
+		$Color.color = Color(1, 1, 1, 1)
 
 
 
