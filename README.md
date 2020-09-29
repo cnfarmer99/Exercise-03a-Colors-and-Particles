@@ -1,12 +1,4 @@
 # Exercise-03a-Colors-and-Particles
-
-All color references correspond to those defined in the [Open Color scheme](https://yeun.github.io/open-color/). In GDScript, to change the color, use
-```
-		$Color.color = Color8(R,G,B)
-```
-and to change back to white, use:
-```
-		$Color.color = Color(1,1,1,1)
 ```
 
 
@@ -26,35 +18,6 @@ For the walls:
   * Scale->Scale Curve = new CurveTexture (make it ramp to 0)
   * Color->Color Ramp = new GradientTexture (make it ramp to 0)
  When the ball hits the walls, move the Particles2D position and rotation and set emitting=true
- 
- For the paddle:
- * Emitting = off
- * Lifetime = 0.4
- * One Shot = on
- * Texture = /Assets/confetti.png
- * Process Material->Material = new ParticlesMaterial
-  * Direction->Spread = 45
-  * Initial Velocity->Velocity = 400
-  * Initial Velocity->Velocity Rand = 0.5
-  * Angular Velocity->Velocity = 100
-  * Angular Velocity->Velocity Rand = 1
-  * Scale->Scale Curve = new CurveTexture (make it ramp to 0)
-  * Color->Color Ramp = new GradientTexture (make it ramp to 0)
- When the ball hits the paddle, move the Particles2D position and rotation and set emitting=true
- 
- For the brick (in /Bricks/Bricks.tscn):
- * Emitting = off
- * Amount = 20
- * Lifetime = 0.4
- * One Shot = on
- * Texture = /Assets/bubble.png
- * Process Material->Material = new ParticlesMaterial
-  * Direction->Spread = 180
-  * Gravity = 0
-  * Initial Velocity->Velocity = 400
-  * Scale->Scale Curve = new CurveTexture (make it ramp to 0)
-  * Color->Color Ramp = new GradientTexture (make it ramp to 0)
- When the ball hits the block, move the Particles2D position and rotation and set emitting=true
 
 Test the project. You should be able to turn on and off the effects using the Menu (press Esc to activate).
 
