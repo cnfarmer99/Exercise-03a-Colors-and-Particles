@@ -43,7 +43,7 @@ func emit_particle(pos):
 	
 	
 func _on_HUD_changed():
-	update_color()
+	update_color() 
 
 
 func die():
