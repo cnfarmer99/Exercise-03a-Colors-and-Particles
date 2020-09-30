@@ -11,6 +11,7 @@ func update_color():
 	if HUD.color_background:
 		#couldn't find in assignment what color was supposed to change to
 		#game breaks when I try to change background 
+		#$Color.color = Color8(255, 0, 255)
 		pass
 	else:
 		pass
